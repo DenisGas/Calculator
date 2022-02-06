@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #212223;
+}
+
+.glav{
+    box-shadow: 0 10px 0 #121512;
+    border: 3px solid #2e342f ;
+    border-radius: 25px;
+    margin: 5% 20% 0 20%;
+    width: 60%;
+    height: auto;
+    background: #2e342f;
+}
+
+.glav h1 {
+    font-family: Arial ;
+    color: white;
+    text-align: center;
+    margin: 1% 0 1% 0;
+}
+
+.inputs{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0 1% 0;
+}
+.inputs input{
+    margin: 0 2% 0 2%;
+    font-size: 24px;
+    display: block;
+    width: 100%;
+}
+
+
+#input{
+    text-shadow: 0 0 5px #00ff28;
+    text-align: center;
+    height: 20vh;
+    color: #00ff28;
+    background: #052050;
+}
+#input2{
+    background: #052050;
+    
+}
+.buttonsAll{
+    margin-top: 3%;
+    height: 80%;
+
+}
+.buttons {
+    text-align: center;
+    width: 80%;
+    margin:auto;
+}
+
+.buttons:last-child{
+    margin-bottom: 1%;
+}
+button{
+    text-shadow: 0 0 10px #00ff28;
+    box-shadow: 0 0 20px #5cc05c;
+    border: 4px solid #2e342f;
+    background: #616763;
+    font-size: 24px;
+    color: #00ff28;
+    height: 10vh;
+    width: 20%;
+    transition: color 2s, background-color 2s;
+}
+
+button:active{
+    color: #0eb02e;
+    transition: color 0s, background-color 0s;
+    background: #404140;
+}
